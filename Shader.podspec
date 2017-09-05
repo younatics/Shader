@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Shader'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Easiest way to make shade view with Swift 3'
 
   s.description      = <<-DESC
