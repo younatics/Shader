@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.summary          = 'Easiest way to make shade view with Swift 3'
 
   s.description      = <<-DESC
-Easiest way to make shade view with Swift 3    
+Easiest way to make shade view with Swift 3. You can make coachmark with this library.    
                     DESC
 
   s.homepage         = 'https://github.com/younatics/Shader'
