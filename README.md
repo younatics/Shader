@@ -43,6 +43,7 @@ let shaderView = Shader.at(frames: [originView.frame, originView2.frame], color:
 
 // Add common view and cornerRadius
 let shaderView = Shader.at(frame: originView.frame, cornerRadius: 50, color: UIColor.black.withAlphaComponent(0.5))
+
 self.view.addSubview(shaderView)
 ```
 
