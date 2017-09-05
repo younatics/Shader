@@ -8,12 +8,52 @@
 
 /* Begin PBXBuildFile section */
 		19D5AE741F5E6F8E00C48412 /* Shader.h in Headers */ = {isa = PBXBuildFile; fileRef = 19D5AE721F5E6F8E00C48412 /* Shader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19D5AE7B1F5E6FDD00C48412 /* Shader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D5AE7A1F5E6FDD00C48412 /* Shader.swift */; };
+		19D5AE831F5E705400C48412 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D5AE821F5E705400C48412 /* AppDelegate.swift */; };
+		19D5AE851F5E705400C48412 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D5AE841F5E705400C48412 /* ViewController.swift */; };
+		19D5AE881F5E705400C48412 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19D5AE861F5E705400C48412 /* Main.storyboard */; };
+		19D5AE8A1F5E705400C48412 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19D5AE891F5E705400C48412 /* Assets.xcassets */; };
+		19D5AE8D1F5E705400C48412 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19D5AE8B1F5E705400C48412 /* LaunchScreen.storyboard */; };
+		19D5AE921F5E705C00C48412 /* Shader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19D5AE6F1F5E6F8E00C48412 /* Shader.framework */; };
+		19D5AE931F5E705C00C48412 /* Shader.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 19D5AE6F1F5E6F8E00C48412 /* Shader.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19D5AE941F5E705C00C48412 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19D5AE661F5E6F8E00C48412 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19D5AE6E1F5E6F8E00C48412;
+			remoteInfo = Shader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		19D5AE961F5E705C00C48412 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				19D5AE931F5E705C00C48412 /* Shader.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		19D5AE6F1F5E6F8E00C48412 /* Shader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Shader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		19D5AE721F5E6F8E00C48412 /* Shader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shader.h; sourceTree = "<group>"; };
 		19D5AE731F5E6F8E00C48412 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19D5AE7A1F5E6FDD00C48412 /* Shader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shader.swift; sourceTree = "<group>"; };
+		19D5AE801F5E705400C48412 /* ShaderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShaderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19D5AE821F5E705400C48412 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		19D5AE841F5E705400C48412 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		19D5AE871F5E705400C48412 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19D5AE891F5E705400C48412 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19D5AE8C1F5E705400C48412 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19D5AE8E1F5E705400C48412 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +64,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		19D5AE7D1F5E705400C48412 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D5AE921F5E705C00C48412 /* Shader.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -31,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				19D5AE711F5E6F8E00C48412 /* Shader */,
+				19D5AE811F5E705400C48412 /* ShaderDemo */,
 				19D5AE701F5E6F8E00C48412 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				19D5AE6F1F5E6F8E00C48412 /* Shader.framework */,
+				19D5AE801F5E705400C48412 /* ShaderDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -46,10 +96,24 @@
 		19D5AE711F5E6F8E00C48412 /* Shader */ = {
 			isa = PBXGroup;
 			children = (
+				19D5AE7A1F5E6FDD00C48412 /* Shader.swift */,
 				19D5AE721F5E6F8E00C48412 /* Shader.h */,
 				19D5AE731F5E6F8E00C48412 /* Info.plist */,
 			);
 			path = Shader;
+			sourceTree = "<group>";
+		};
+		19D5AE811F5E705400C48412 /* ShaderDemo */ = {
+			isa = PBXGroup;
+			children = (
+				19D5AE821F5E705400C48412 /* AppDelegate.swift */,
+				19D5AE841F5E705400C48412 /* ViewController.swift */,
+				19D5AE861F5E705400C48412 /* Main.storyboard */,
+				19D5AE891F5E705400C48412 /* Assets.xcassets */,
+				19D5AE8B1F5E705400C48412 /* LaunchScreen.storyboard */,
+				19D5AE8E1F5E705400C48412 /* Info.plist */,
+			);
+			path = ShaderDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,16 +148,42 @@
 			productReference = 19D5AE6F1F5E6F8E00C48412 /* Shader.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		19D5AE7F1F5E705400C48412 /* ShaderDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19D5AE8F1F5E705400C48412 /* Build configuration list for PBXNativeTarget "ShaderDemo" */;
+			buildPhases = (
+				19D5AE7C1F5E705400C48412 /* Sources */,
+				19D5AE7D1F5E705400C48412 /* Frameworks */,
+				19D5AE7E1F5E705400C48412 /* Resources */,
+				19D5AE961F5E705C00C48412 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19D5AE951F5E705C00C48412 /* PBXTargetDependency */,
+			);
+			name = ShaderDemo;
+			productName = ShaderDemo;
+			productReference = 19D5AE801F5E705400C48412 /* ShaderDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		19D5AE661F5E6F8E00C48412 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Seungyoun Yi";
 				TargetAttributes = {
 					19D5AE6E1F5E6F8E00C48412 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4G7K3CN2JU;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					19D5AE7F1F5E705400C48412 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 4G7K3CN2JU;
 						ProvisioningStyle = Automatic;
@@ -106,6 +196,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 19D5AE651F5E6F8E00C48412;
 			productRefGroup = 19D5AE701F5E6F8E00C48412 /* Products */;
@@ -113,6 +204,7 @@
 			projectRoot = "";
 			targets = (
 				19D5AE6E1F5E6F8E00C48412 /* Shader */,
+				19D5AE7F1F5E705400C48412 /* ShaderDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -125,6 +217,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		19D5AE7E1F5E705400C48412 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D5AE8D1F5E705400C48412 /* LaunchScreen.storyboard in Resources */,
+				19D5AE8A1F5E705400C48412 /* Assets.xcassets in Resources */,
+				19D5AE881F5E705400C48412 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -132,10 +234,47 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19D5AE7B1F5E6FDD00C48412 /* Shader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19D5AE7C1F5E705400C48412 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D5AE851F5E705400C48412 /* ViewController.swift in Sources */,
+				19D5AE831F5E705400C48412 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19D5AE951F5E705C00C48412 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19D5AE6E1F5E6F8E00C48412 /* Shader */;
+			targetProxy = 19D5AE941F5E705C00C48412 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19D5AE861F5E705400C48412 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19D5AE871F5E705400C48412 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19D5AE8B1F5E705400C48412 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19D5AE8C1F5E705400C48412 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		19D5AE751F5E6F8E00C48412 /* Debug */ = {
@@ -242,6 +381,28 @@
 		19D5AE781F5E6F8E00C48412 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4G7K3CN2JU;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Shader/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.seungyounyi.Shader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		19D5AE791F5E6F8E00C48412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 4G7K3CN2JU;
@@ -256,23 +417,32 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
-			name = Debug;
+			name = Release;
 		};
-		19D5AE791F5E6F8E00C48412 /* Release */ = {
+		19D5AE901F5E705400C48412 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				DEFINES_MODULE = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4G7K3CN2JU;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Shader/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.seungyounyi.Shader;
+				INFOPLIST_FILE = ShaderDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.seungyounyi.ShaderDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		19D5AE911F5E705400C48412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4G7K3CN2JU;
+				INFOPLIST_FILE = ShaderDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.seungyounyi.ShaderDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -294,6 +464,15 @@
 			buildConfigurations = (
 				19D5AE781F5E6F8E00C48412 /* Debug */,
 				19D5AE791F5E6F8E00C48412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19D5AE8F1F5E705400C48412 /* Build configuration list for PBXNativeTarget "ShaderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19D5AE901F5E705400C48412 /* Debug */,
+				19D5AE911F5E705400C48412 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
