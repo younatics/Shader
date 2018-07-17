@@ -66,7 +66,11 @@ public class Shader {
     private class func shaderMask(path:CGPath) -> CAShapeLayer {
         let mask = CAShapeLayer()
         mask.path = path
+        #if swift(>=4.2)
+        mask.fillRule = CAShapeLayerFillRule.evenOdd
+        #else
         mask.fillRule = kCAFillRuleEvenOdd
+        #endif
 
         return mask
     }
