@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Shader'
-  s.version          = '1.1.0'
-  s.summary          = 'Easiest way to make shade view with Swift 3'
+  s.version          = '2.0.0'
+  s.summary          = 'Easiest way to make shade view with Swift 6'
 
   s.description      = <<-DESC
 Easiest way to make shade view with Swift 3. You can make coachmark with this library.    
@@ -22,7 +22,8 @@ Easiest way to make shade view with Swift 3. You can make coachmark with this li
   s.source           = { :git => 'https://github.com/younatics/Shader.git', :tag => s.version.to_s }
   s.source_files     = 'Shader/*.swift'
 
-  s.ios.deployment_target = '8.0'
+  s.swift_version = '6.0'
+  s.ios.deployment_target = '13.0'
 
   s.frameworks = 'UIKit','QuartzCore'
   s.requires_arc = true

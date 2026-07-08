@@ -9,7 +9,7 @@
 import UIKit
 import QuartzCore
 
-public class Shader {
+@MainActor public class Shader {
     public class func at(frame: CGRect, color: UIColor) -> UIView {
         let shaderView = UIView(frame: UIScreen.main.bounds)
         shaderView.backgroundColor = color
